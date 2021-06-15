@@ -24,8 +24,6 @@ abcdj
 >>> print("After replacing G",Str_var.replace("c","G"))
 After replacing G abGdj
 
->>> print("After replacing G",Str_var[:2]+'G'+Str_var[3:])
-After replacing G abGdj
 
 3)Create two values (a,b) of int,float data type & convert the vise versa, Hint : convert a from int to float datatype & b from float to int datatype
 
