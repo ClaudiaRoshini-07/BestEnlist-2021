@@ -39,12 +39,15 @@ Length = 4
 
 //Python program to remove the intersection of a 2nd set from the 1st set
 
-dict1={1,2,3,4,7,8,9,12}
-dict2={1,2,3,0,14,12}
-print(dict1.intersection(dict2))
+s1={1,2,3,4,7,8,9,12}
+s2={1,2,3,0,14,12}
+s1.difference_update(s2)
+print(s1)
+print(s2)
 
 OUTPUT:
-  {1, 2, 3, 12}
+  {4, 7, 8, 9}
+{0, 1, 2, 3, 12, 14}
   
 
   
