@@ -1,6 +1,6 @@
 //1.	Create a python module with list and import the module in another .py file and change the value in list
 
-FILE NAME:list.py
+FILE NAME:list1.py
  l1=[64,12,16,18] 
   
  FILE NAME: list2.py
