@@ -9,7 +9,7 @@ OUTPUT:
 
 //2.	First create a range from 1 to 8. Then using zip, merge the given list and the range together to create a new list of tuples.
 
-lst1=["Energy", "Anne", "Irene", "Tina", "Fern", "Finch", "Tin"]
+lst1=["Elna", "Anne", "Irene", "Tina", "Fern", "Finch", "Tin"]
 rng1 = list(range(1,8))
 lst = zip(lst1, rng1)
 print(lst)
